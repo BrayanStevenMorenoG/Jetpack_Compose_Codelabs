@@ -75,7 +75,7 @@ fun OnboardingScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("Welcome to the Basics Codelab!")
+        Text("Bienvenido a Codelab Basico!")
         Button(
             modifier = Modifier.padding(vertical = 24.dp),
             onClick = onContinueClicked
@@ -151,7 +151,7 @@ private fun CardContent(name: String){
                 )
             }
         }
-        
+
     }
     
 }
